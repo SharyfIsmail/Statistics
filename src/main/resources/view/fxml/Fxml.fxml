@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="599.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="6.0" prefHeight="388.0" prefWidth="614.0">
+         <children>
+            <TableView layoutX="-3.0" layoutY="25.0" prefHeight="355.0" prefWidth="622.0">
+              <columns>
+                <TableColumn prefWidth="142.0" text="Deal date" />
+                  <TableColumn prefWidth="91.0" text="Instrument" />
+                  <TableColumn prefWidth="120.0" text="General direction" />
+                <TableColumn prefWidth="94.0" text="Deal" />
+                  <TableColumn prefWidth="81.0" text="In Process" />
+                  <TableColumn prefWidth="93.0" text="Profit" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="377.0" prefHeight="109.0" prefWidth="619.0">
+         <children>
+            <TextField layoutX="14.0" layoutY="36.0" prefHeight="25.0" prefWidth="75.0" promptText="Instrument" />
+            <TextField layoutX="97.0" layoutY="36.0" prefHeight="25.0" prefWidth="109.0" promptText="General direction" />
+            <TextField layoutX="225.0" layoutY="36.0" prefHeight="25.0" prefWidth="75.0" promptText="Deal" />
+            <TextField layoutX="327.0" layoutY="36.0" prefHeight="25.0" prefWidth="75.0" promptText="In progress" />
+            <TextField layoutX="435.0" layoutY="36.0" prefHeight="25.0" prefWidth="75.0" promptText="Profit" />
+            <Button layoutX="533.0" layoutY="36.0" mnemonicParsing="false" text="add to DB" />
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="23.0" layoutY="478.0" prefHeight="98.0" prefWidth="567.0">
+         <children>
+            <Button layoutX="175.0" layoutY="59.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="218.0" text="Get data from Database" />
+         </children>
+      </AnchorPane>
+   </children>
+</Pane>
